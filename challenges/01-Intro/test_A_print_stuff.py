@@ -7,4 +7,4 @@ def test_printing(capsys):
     # Folks don't know about functions yet!
     import A_print_stuff
     out, _ = capsys.readouterr() # We use _ to indicate a throw-away value
-    assert out == "Hello Python!\n"
+    assert out == "Hello python!\n"
